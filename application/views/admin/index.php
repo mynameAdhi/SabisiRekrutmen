@@ -23,16 +23,16 @@
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?= base_url('user'); ?>">Home</a>
+                    <a class="nav-link active" href="<?= base_url('admin'); ?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('user/profile'); ?>">Profile</a>
+                    <a class="nav-link" href="<?php echo base_url('admin/profile'); ?>">Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('user/biodata'); ?>">Data Diri</a>
+                    <a class="nav-link" href="<?php echo base_url('admin/data'); ?>">Data Pelamar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('user/biodata'); ?>">Berkas Lamaran</a>
+                    <a class="nav-link" href="<?php echo base_url('admin/berkas'); ?>">Berkas Pelamar</a>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-right">
@@ -43,7 +43,7 @@
     <div class="container p-3 my-5 text-light">
         <h1>Selamat Datang!!</h1>
         <h3><?php echo $this->session->userdata('email'); ?></h3>
-        <p class="fs-4">Kamu Telah Berhasil Pada Titik Ini, Tetap Semangat!!</p>
+        <p class="fs-4">Kamu Telah Login Sebagai Admin !!</p>
 
     </div>
 </body>
